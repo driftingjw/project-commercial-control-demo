@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive project commercial management portfolio by Hanchen Wang. Explore contracts, settlements, finance, budget control and document traceability with fictional data.">
+  <meta name="theme-color" content="#102e35">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>Project Commercial Control · Hanchen Wang</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="demo-banner"><span class="demo-dot"></span><strong>Interactive portfolio demo</strong><span>Fictional data. Changes stay in this browser only and are not permanently stored on a server. Clearing site data removes them.</span><button data-action="reset" class="text-button">Reset demo</button></div>
+  <div id="app"></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>This interactive demonstration requires JavaScript. No login or personal information is needed.</noscript>
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>
